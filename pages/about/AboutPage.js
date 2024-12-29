@@ -4,6 +4,7 @@ import { aboutStore } from './AboutStore.js'
 import { homeStore } from './../home/HomeStore.js'
 
 export default function AboutPage() {
+  console.log('AboutPage')
     
   return html`
     <p>Home Store Count 1: ${() => homeStore.count1}</p>
