@@ -7,7 +7,7 @@ export default function AboutPage() {
   console.log('AboutPage')
     
   return html`
-    <p>Home Store Count 1: ${() => homeStore.count1}</p>
+    <p>Home Store Count 1: ${homeStore.count1}</p>
     <p>About Store Count: ${() => aboutStore.count}</p>
     ${Button({ title: 'Increment About Store Count', onClick: () => aboutStore.count++ })}
   `
