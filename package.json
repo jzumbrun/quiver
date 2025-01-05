@@ -1,0 +1,32 @@
+{
+  "name": "@quiver-js/core",
+  "version": "1.0.0",
+  "description": "Micro framework for arrow-js reactive JavaScript library.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quiver-JS/core/core.git"
+  },
+  "keywords": [
+    "arrow-js",
+    "micro",
+    "framework",
+    "build-less"
+  ],
+  "author": "Jonathan Zumbrun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Quiver-JS/core/issues"
+  },
+  "homepage": "https://github.com/Quiver-JS/core#readme",
+  "dependencies": {
+    "https://esm.sh/@quiver-js/core": "^1.0.0-alpha.10",
+    "page": "^1.11.6"
+  }
+}

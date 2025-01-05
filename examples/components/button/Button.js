@@ -1,5 +1,4 @@
-import { html } from "https://esm.sh/@arrow-js/core";
-import css from "../../lib/css.js";
+import { html, css } from "@quiver/core";
 
 export default function Button({ onClick, color = "", title = "" }) {
   return html`
